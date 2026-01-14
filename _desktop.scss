@@ -19,7 +19,7 @@ body {
 
 .top-desktop{
   position: relative;
-  height: 800px;  
+  height: 800px;
   background-image: url(img/fon.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -64,6 +64,9 @@ body {
   right: -488px;
   z-index: -1;
 }
+.mini-star{
+  display: none;
+}
 
 .head{
   max-width: 769px;
@@ -71,7 +74,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;  
+  align-items: flex-start;
 }
 
 .head__top{
@@ -97,7 +100,7 @@ body {
 }
 
 .head__button{
-  display: inline-block;  
+  display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
   border: 1px solid rgba(32, 32, 39, 1);
@@ -118,13 +121,13 @@ body {
 
 .head__button:hover{
   background: rgba(255, 255, 255, 1);
-  color: rgba(0, 0, 0, 1); 
+  color: rgba(0, 0, 0, 1);
   cursor: url(img/cursor.svg) 10 10, pointer;
 }
 
 .games{
   position: relative;
-  height: 1470px;  
+  height: 1470px;
   background-color:rgba(32, 32, 39, 1);
   overflow: hidden;
   z-index: 0;
@@ -157,7 +160,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start; 
+  align-items: flex-start;
 }
 
 .games__about-title{
@@ -218,6 +221,7 @@ body {
   grid-row-start: 1;
   grid-row-end: 2;
 }
+
 .games__items-1:nth-child(4){
   grid-row-start: 2;
   grid-row-end: 4;
@@ -265,7 +269,7 @@ body {
 
 .mini-games{
   position: relative;
-  height: 3500px;  
+  height: 3500px;
   background-color:rgba(32, 32, 39, 1);
   overflow: hidden;
   z-index: 0;
@@ -319,7 +323,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 1200px;
-  height: 500px;
+  //height: 500px;
   border-radius: 30px;
   box-shadow: 0px 20px 67px -12px rgba(0, 0, 0, 0.13);
   background: rgba(255, 255, 255, 1);
@@ -357,14 +361,14 @@ body {
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 600;
-  line-height: 141.69%;  
+  line-height: 141.69%;
   margin-top: 36px;
   transition: all 0.7s;
 }
 
 .mini-games__button:hover{
   background: rgba(255, 255, 255, 1);
-  color: rgba(0, 0, 0, 1); 
+  color: rgba(0, 0, 0, 1);
   cursor: url(img/cursor.svg) 10 10, pointer;
 }
 
@@ -389,3 +393,5 @@ body {
   font-weight: 600;
   line-height: 29px;
 }
+
+//@import 'mobile';
